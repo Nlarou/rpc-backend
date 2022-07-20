@@ -113,6 +113,7 @@ const Data = {
   },
 };
 app.use(
+  "/api",
   jsonRouter({
     methods: Data,
     onError(err) {
