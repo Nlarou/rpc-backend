@@ -101,7 +101,7 @@ const Data = {
     return projects;
   },
   getProject(param, raw) {
-    console.log(param, callback, raw);
+    console.log(param, raw);
     console.log("getProject", param);
     return projects.filter((project) => project.name === param.name);
   },
